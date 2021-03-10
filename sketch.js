@@ -70,7 +70,7 @@ function setup() {
 function draw() {
   //background(56,44,44); 
   if(backgroundImg)
-    background("black");
+    background(backgroundImg);
   //Engine.update(engine);
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
